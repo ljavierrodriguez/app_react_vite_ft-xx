@@ -1,0 +1,15 @@
+:root {
+    --red: #00ff26;
+}
+
+a {
+    color: var(--red);
+    margin: 2px 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
